@@ -5,7 +5,7 @@ Giggle Hub is your go-to destination for jokes and laughter! Explore a wide rang
 ## Features
 
 - **Category Selection**: Browse through different joke categories such as Programming, Miscellaneous, Pun, and more.
-- This web application utilizes the Joke API to provide a wide range of hilarious jokes across various categories."
+- This web application utilizes the **Joke API** to provide a wide range of hilarious jokes across various categories.
 - **Random Joke Generation**: Simply select your preferred category and click a button to get a random joke.
 - **User-Friendly Interface**: Enjoy a simple and clean interface designed for effortless navigation and enjoyment.
 
