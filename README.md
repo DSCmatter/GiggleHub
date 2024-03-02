@@ -19,5 +19,5 @@ Giggle Hub is your go-to destination for jokes and laughter! Explore a wide rang
 To get started with Giggle Hub, simply clone this repository to your local machine and open the `index.html` file in your web browser.
 
 ```bash
-git clone https://github.com/your_username/giggle-hub.git
+git clone https://github.com/DSCmatter/giggle-hub.git
 cd giggle-hub
