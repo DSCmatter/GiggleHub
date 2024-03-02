@@ -45,7 +45,7 @@ cd giggle-hub
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
-Special thanks to JokeAPI v2 by By Sven Fehler to make this project possible.
+Special thanks to JokeAPI v2 By Sven Fehler to make this project possible.
 
 
 
