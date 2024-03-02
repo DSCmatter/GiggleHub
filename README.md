@@ -5,7 +5,7 @@ Giggle Hub is your go-to destination for jokes and laughter! Explore a wide rang
 ## Features
 
 - **Category Selection**: Browse through different joke categories such as Programming, Miscellaneous, Pun, and more.
-- **This web application utilizes the Joke API to provide a wide range of hilarious jokes across various categories."
+- This web application utilizes the Joke API to provide a wide range of hilarious jokes across various categories."
 - **Random Joke Generation**: Simply select your preferred category and click a button to get a random joke.
 - **User-Friendly Interface**: Enjoy a simple and clean interface designed for effortless navigation and enjoyment.
 
@@ -20,21 +20,21 @@ Giggle Hub is your go-to destination for jokes and laughter! Explore a wide rang
 To get started with Giggle Hub, simply clone this repository to your local machine and open the `index.html` file in your web browser.
 
 ## Usage
-- **Open index.html in your web browser.
-- **Select a joke category from the dropdown menu.
-- **Click the "Get Joke" button to display a random joke from the selected category.
+- Open index.html in your web browser.
+- Select a joke category from the dropdown menu.
+- Click the "Get Joke" button to display a random joke from the selected category.
 
 ## Contributing
 
 Contributions are welcome! If you would like to contribute to Giggle Hub, please follow these steps:
 
 Fork the repository.
-- **Create a new branch (git checkout -b feature/new-feature).
-- **Make your changes.
-- **Commit your changes (git commit -am 'Add new feature').
-- **Push to the branch (git push origin feature/new-feature).
-- **Create a new Pull Request.
-- **Please ensure that your contributions adhere to the project's coding standards and guidelines.
+- Create a new branch (git checkout -b feature/new-feature).
+- Make your changes.
+- Commit your changes (git commit -am 'Add new feature').
+- Push to the branch (git push origin feature/new-feature).
+- Create a new Pull Request.
+- Please ensure that your contributions adhere to the project's coding standards and guidelines.
 
 ```bash
 git clone https://github.com/DSCmatter/giggle-hub.git
