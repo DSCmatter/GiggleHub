@@ -2,6 +2,8 @@
 
 Giggle Hub is your go-to destination for jokes and laughter! Explore a wide range of hilarious jokes across various categories and brighten up your day with a good laugh.
 
+## ![View Webpage](webpage.png)
+
 ## Features
 
 - **Category Selection**: Browse through different joke categories such as Programming, Miscellaneous, Pun, and more.
