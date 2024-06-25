@@ -8,8 +8,8 @@ async function getJoke() {
     const options = {
       method: 'GET',
       headers: {
-        'X-RapidAPI-Key': 'ffa9fc19admsh7ba1576f57e2c23p162531jsn86179c55ba65',
-        'X-RapidAPI-Host': 'jokeapi-v2.p.rapidapi.com'
+        'X-RapidAPI-Key': '',
+        'X-RapidAPI-Host': ''
       }
     };
     try {
