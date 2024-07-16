@@ -142,7 +142,7 @@
             <input type="radio" id="categoryChristmas" name="category" value="Christmas">
             <label for="categoryChristmas">Christmas</label><br>
         </div>     
-        <button type="button" class="btn btn-primary mb-4" onclick="getJoke()">Get Joke</button>
+        <button type="button" class="btn btn-primary mb-4" onclick="import('./script.mjs').then(module => module.getJoke())">Get Joke</button>
         <div id="jokeDisplay"></div>
     </div>
 
@@ -164,7 +164,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Separate JavaScript file -->
-    <script src="script.js"></script>
+    <script type="module" src="script.mjs"></script>
 
 </body>
 

@@ -1,8 +1,23 @@
 {
+  "name": "GiggleHub",
+  "version": "1.0.0",
+  "description": "A project to implement an API",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
   "dependencies": {
     "dotenv": "^16.4.5",
     "dotenv-expand": "^11.0.6",
     "nodemon": "^3.1.4",
     "webpack": "^5.93.0"
-  }
+  },
+  "devDependencies": {
+    "vite": "^5.3.4"
+  },
+  "author": "",
+  "license": "ISC"
 }
