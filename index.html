@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giggle Hub</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #212529;
+            font-family: Arial, sans-serif;
+            background-image: url('/images/bg.jpg');
+            background-size: cover;
+            min-height: 80vh;
+            background-position: center center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        h1 {
+            text-align: center;
+            color: #007bff;
+            text-decoration: underline;
+        }
+
+        .form-select {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        #jokeDisplay {
+            margin-top: 20px;
+        }
+
+        .btn-primary {
+            width: 100%;
+        }
+
+        .alert {
+            margin-top: 20px;
+        }
+
+        /* Footer styles */
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            position: relative;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+        }
+
+        footer img {
+            max-width: 100%;
+            max-height: 100px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -110px;
+        }
+
+        .responsive-img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .left-margin {
+            margin-left: -20px;
+        }
+
+        footer {
+            color: #e4e7e9;
+        }
+
+        footer a {
+            color: #e4e7e9;
+        }
+            .container {
+                position: relative;
+            }
+
+            /* Media query for smaller screens */
+        @media (max-width: 576px) {
+            .container {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+
+        /* Media query for medium screens */
+        @media (min-width: 576px) and (max-width: 768px) {
+            .container {
+                max-width: 600px;
+            }
+        }
+
+        .footer {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row align-items-center mb-4">
+            <div class="col-auto">
+                <img src="/images/duck.jpg" alt="Duck Image" class="responsive-img" style="max-width: 150px;">
+            </div>
+            <div class="col">
+                <h1 class="mb-0 text-center left-margin">Giggle Hub</h1>
+            </div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Select a category:</label><br>
+            <input type="radio" id="categoryAny" name="category" value="Any" checked>
+            <label for="categoryAny">Any</label><br>
+            <input type="radio" id="categoryMisc" name="category" value="Misc">
+            <label for="categoryMisc">Misc</label><br>
+            <input type="radio" id="categoryProgramming" name="category" value="Programming">
+            <label for="categoryProgramming">Programming</label><br>
+            <input type="radio" id="categoryDark" name="category" value="Dark">
+            <label for="categoryDark">Dark</label><br>
+            <input type="radio" id="categoryPun" name="category" value="Pun">
+            <label for="categoryPun">Pun</label><br>
+            <input type="radio" id="categorySpooky" name="category" value="Spooky">
+            <label for="categorySpooky">Spooky</label><br>
+            <input type="radio" id="categoryChristmas" name="category" value="Christmas">
+            <label for="categoryChristmas">Christmas</label><br>
+        </div>     
+        <button type="button" class="btn btn-primary mb-4" onclick="getJoke()">Get Joke</button>
+        <div id="jokeDisplay"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p style="font-size: 24px;">About Us</p>
+        <p>Website designed</p>
+        <p>Solely for the purpose of learning about APIs</p>
+        <p>And as a personal project.</p>
+        <p>
+            <a href="https://github.com/DSCmatter" target="_blank">Github</a> •
+            <a href="https://www.linkedin.com/in/vasant-kumar-mogia-752aa52a1/" target="_blank">LinkedIn</a> •
+            <a href="https://twitter.com/printemps0511" target="_blank">Twitter</a>
+        </p>
+        <img src="images/duck1.jpg" alt="Duck1 Image" class="responsive-img">
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Separate JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
