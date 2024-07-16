@@ -6,7 +6,6 @@ export async function getJoke() {
   const selectedCategories = Array.from(document.querySelectorAll('input[name="category"]:checked')).map(checkbox => checkbox.value);
   
   if (selectedCategories.length > 0) {
-    const categoryParam = selectedCategories.join(',');
     const url = ' https://v2.jokeapi.dev/joke/Any';
     const options = {
       method: 'GET',
