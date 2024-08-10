@@ -1,6 +1,6 @@
 // jokes.js
 
-const apiKey = import.meta.env.API_KEY
+const apiKey = import.meta.env.VITE_API_KEY
 
 export async function getJoke() {
   const selectedCategories = Array.from(document.querySelectorAll('input[name="category"]:checked')).map(checkbox => checkbox.value);
