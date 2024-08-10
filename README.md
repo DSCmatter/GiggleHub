@@ -16,6 +16,7 @@ Giggle Hub is your go-to destination for jokes and laughter! Explore a wide rang
 - HTML5
 - CSS3 (Bootstrap)
 - JavaScript (Bootstrap and Fetch API)
+- vite (local development server)
 
 ## Getting Started
 
