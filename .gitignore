@@ -4,3 +4,7 @@ netlify.toml
 
 # Dependency directories
 node_modules/
+dist/
+
+# Local Netlify folder
+.netlify

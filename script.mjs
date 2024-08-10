@@ -46,3 +46,9 @@ function displayError(errorMessage) {
   const jokeDisplay = document.getElementById('jokeDisplay');
   jokeDisplay.innerHTML = `<div class="alert alert-danger">${errorMessage}</div>`;
 }
+
+router.onError((error, to) => {
+  if (error.message.includes('Failed to fetch dynamically imported module') || error.message.includes("Importing a module script failed")) {
+    window.location = to.fullPath
+  }
+})
